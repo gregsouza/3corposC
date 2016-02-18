@@ -40,6 +40,7 @@ double **Newton_2D(double (*forca_x)(), double (*forca_y)(),
    i=0;
    
   while(i<N){
+  	//Here i'm setting the solution, the first two rows are de x and y position, and the third and fourth are the velocitys
     solucao[0][i] = r.x;
     solucao[1][i] = r.y;
     solucao[2][i] = v.x;
